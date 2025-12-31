@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "518960410944",
+    "firebase_url": "https://campusguardian-741c6-default-rtdb.firebaseio.com",
+    "project_id": "campusguardian-741c6",
+    "storage_bucket": "campusguardian-741c6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:518960410944:android:26de0b548113b659b10aa5",
+        "android_client_info": {
+          "package_name": "com.shruti.lofo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBo9nonYI7g2XHYivWWlwzvQwQHQVBLI74"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

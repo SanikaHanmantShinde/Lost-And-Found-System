@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img3"
+    android:fillViewport="true"
+    tools:context=".ui.Help.HelpFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:gravity="center"
+            android:text="Help"
+            android:textColor="#575252"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <!-- ===== CONTACT INFO CARD ===== -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="10dp"
+            app:cardBackgroundColor="#95FFFFFF">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Need more help?"
+                    android:textStyle="bold"
+                    android:textColor="#575252"
+                    android:textSize="16sp"/>
+
+                <!-- Email -->
+                <TextView
+                    android:id="@+id/helpEmail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="campusguardian2025@gmail.com"
+                    android:textColor="#0000FF"
+                    android:textSize="15sp"
+                    android:autoLink="email"
+                    android:linksClickable="true"
+                    android:paddingTop="8dp"/>
+
+                <!-- Phone -->
+                <TextView
+                    android:id="@+id/helpPhone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="+91 7498609566"
+                    android:textColor="#0000FF"
+                    android:textSize="15sp"
+                    android:autoLink="phone"
+                    android:linksClickable="true"
+                    android:paddingTop="6dp"/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- ===== FAQ CARDS ===== -->
+
+        <!-- QUESTION 1 -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="10dp"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="20dp"
+            app:cardBackgroundColor="#95FFFFFF">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="24dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/que1"
+                    android:text="How do I report a lost item?"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:textColor="#575252"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ans1"
+                    android:text="To report a lost item, go to the Lost section, tap '+' and fill all required details."
+                    android:textSize="15sp"
+                    android:textColor="#575252"
+                    android:visibility="gone"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- QUESTION 2 -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="10dp"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="20dp"
+            app:cardBackgroundColor="#95FFFFFF">
+
+            <LinearLayout
+                android:padding="24dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/que2"
+                    android:text="How can I check if someone found my item?"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:textColor="#575252"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ans2"
+                    android:text="Check the Found section regularly for matching items."
+                    android:textSize="15sp"
+                    android:textColor="#575252"
+                    android:visibility="gone"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- QUESTION 3 -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="10dp"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="20dp"
+            app:cardBackgroundColor="#95FFFFFF">
+
+            <LinearLayout
+                android:padding="24dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/que3"
+                    android:text="What should I do if I found an item?"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:textColor="#575252"/>
+
+                <TextView
+                    android:id="@+id/ans3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Go to Found section, tap '+' and add item and your details."
+                    android:textColor="#575252"
+                    android:textSize="15sp"
+                    android:visibility="gone" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>

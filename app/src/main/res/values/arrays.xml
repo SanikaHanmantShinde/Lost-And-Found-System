@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="categories_array">
+        <item>Electronics</item>
+        <item>Stationery</item>
+        <item>Accessories</item>
+        <item>Cards and Cash</item>
+        <item>Cosmetic and Personal Care</item>
+        <item>Medical Items</item>
+        <item>Other</item>
+    </string-array>
+</resources>
